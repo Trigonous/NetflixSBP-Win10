@@ -7,7 +7,7 @@ Controls:
 Left stick to mouse move 
 Right stick to control volume 
 A button to mouse click 
-B button to go back (only works when back arrow is visible in upper left corner, also exits from search when no arrow visible. During playbuck wiggles the mouse to show back arrow) 
+B button to go back (only works when back arrow is visible in upper left corner, also exits from search when no arrow visible. During playback wiggles the mouse to show back arrow) 
 X button to Resume last watched or play/pause during playback 
 Y button to search (only from main screen with Search icon visible) 
 D-Pad to scroll on main screen or through other episodes during playback
