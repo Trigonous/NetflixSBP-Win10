@@ -13,7 +13,7 @@ arrow visible. During playbuck wiggles the mouse to show back arrow)
 X button to Resume last watched or play/pause during playback  
 Y button to search (only from main screen with Search icon visible)  
 D-Pad to scroll on main screen or through other episodes during playback  
-Start+Back together to exit, alternatively use Esc (See warning)  
+Start+Back together to exit, alternatively use Esc 
   
 The various .bmp files are necessary for the script to work; it searches the screen for the images and then clicks 
 
@@ -35,11 +35,6 @@ To add to Steam simply click "+ Add a Game" or the + button when in Big Picture 
 
 executable.  
   
-!!!!!!!WARNING!!!!!!! DO NOT exit Netflix from the X button in the top right OR by using Alt+F4. ONLY exit using 
-
-Start+Back or Escape Failing to use the specified methods leaves the script mapping the mouse to the controller 
-
-running.  
   
 I claim NO credit for this, I merely edited and combined scripts I found by Googling.  
   
