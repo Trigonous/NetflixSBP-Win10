@@ -61,6 +61,7 @@ else
     YAxisMultiplier = 1
 
 SetTimer, WatchJoystick, 10  ; Monitor the movement of the joystick.
+SetTimer, WatchProcess, 100  ; Checks if Netflix is still open.
 
 GetKeyState, JoyInfo, %JoystickNumber%JoyInfo
 IfInString, JoyInfo, P  ; Joystick has POV control, so use it as a mouse wheel.
@@ -191,6 +192,15 @@ Click, %foundX%, %foundY%
 Run osk.exe  ; Opens the On Screen Keyboard
 }else{
 
+}
+return
+
+; Close Script if Netflix not detected
+WatchProcess:
+Process, Exist, netflix.exe
+If(ErrorLevel == 0){
+Process, Close, osk.exe
+ExitApp
 }
 return
 
